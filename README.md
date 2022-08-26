@@ -123,6 +123,9 @@ export interface AnimatedIconProps extends Omit<React.ComponentProps<typeof Anim
  
  ```
  
+ #### Related informations:
+[https://css-tricks.com/using-multi-step-animations-transitions/](https://css-tricks.com/using-multi-step-animations-transitions/)
+ 
  #### example image:
  
- ![vertical image](https://github.com/shadowvzs/teams-reaction/blob/master/project/src/AnimatedIcon/assets/30_anim_f_laugh.png)
+ [vertical image](https://github.com/shadowvzs/teams-reaction/blob/master/project/src/AnimatedIcon/assets/30_anim_f_laugh.png)
