@@ -87,7 +87,16 @@ export interface AnimatedIconProps extends Omit<React.ComponentProps<typeof Anim
 }
  ```
  
+ ##### Assets & FrameCounts
+ 
  ```react
+import likeImg from './30_anim_f_like.png';
+import heartImg from './30_anim_f_heart.png';
+import laughImg from './30_anim_f_laugh.png';
+import surprisedImg from './30_anim_f_surprised.png';
+import sadImg from './30_anim_f_sad.png';
+import angryImg from './30_anim_f_angry.png';
+
  const icons = {
     like: {
         url: likeImg,
