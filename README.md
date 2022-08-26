@@ -23,8 +23,9 @@
  * we must set the animation duration
  * stepper split the animation into steps/frames, example if we have an image with 30x2100 size then the animation should be 2100/30 - 1 = 69 step (= 70 frames), so the animation in first frame will show the image at 0x0-30x30 then 30x30-30x60, then 30x60-30x90 etc till 30x2070-30x2100...
  
+ 
+ ##### final component
  ```react
- // final component
 const AnimatedIcon = observer((props: AnimatedIconProps) => {
     const { iconData, frameCount, ...rest } = props;
     const data = assets[iconData];
